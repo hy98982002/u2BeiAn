@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "github-server": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN_READONLY}"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-filesystem", "/Users/dongqingzhai/Desktop/UAI_project"]
+    }
+  }
+}
