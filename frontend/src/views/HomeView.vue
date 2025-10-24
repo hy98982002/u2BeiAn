@@ -21,83 +21,9 @@
     <!-- 页脚 -->
     <footer class="footer py-5" role="contentinfo">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="footer-section">
-              <h5 class="footer-title">
-                <img :src="logoImg" alt="UAI Logo" height="30" class="me-2" />
-                UAI教育
-              </h5>
-              <p class="footer-text">
-                专注于高质量的在线技术教育，为每一位学员提供最前沿的技术知识和实战技能。
-              </p>
-              <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-qq"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4">
-            <div class="footer-section">
-              <h6 class="footer-title">课程分类</h6>
-              <ul class="footer-links">
-                <li><a href="#courses">前端开发</a></li>
-                <li><a href="#courses">后端开发</a></li>
-                <li><a href="#courses">人工智能</a></li>
-                <li><a href="#courses">数据科学</a></li>
-                <li><a href="#courses">云计算</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4">
-            <div class="footer-section">
-              <h6 class="footer-title">学习支持</h6>
-              <ul class="footer-links">
-                <li><a href="#">学习指南</a></li>
-                <li><a href="#">技术文档</a></li>
-                <li><a href="#">社区论坛</a></li>
-                <li><a href="#">在线答疑</a></li>
-                <li><a href="#">学习工具</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4">
-            <div class="footer-section">
-              <h6 class="footer-title">关于我们</h6>
-              <ul class="footer-links">
-                <li><a href="/about">公司介绍</a></li>
-                <li><a href="#">师资团队</a></li>
-                <li><a href="#">联系我们</a></li>
-                <li><a href="#">招聘信息</a></li>
-                <li><a href="#">合作伙伴</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-4">
-            <div class="footer-section">
-              <h6 class="footer-title">联系方式</h6>
-              <div class="contact-info">
-                <p><i class="fas fa-phone"></i> 400-123-4567</p>
-                <p><i class="fas fa-envelope"></i> contact@uai.edu</p>
-                <p><i class="fas fa-map-marker-alt"></i> 北京市朝阳区科技园</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="footer-divider" />
-        <div class="row">
-          <div class="col-md-6">
-            <p class="footer-copyright">© 2024 UAI教育平台. All rights reserved.</p>
-          </div>
-          <div class="col-md-6 text-end">
-            <div class="footer-links-inline">
-              <a href="#">隐私政策</a>
-              <a href="#">服务条款</a>
-              <a href="#">备案号：京ICP备12345678号</a>
-            </div>
-          </div>
+        <div class="text-center">
+          <p class="mb-2">DoviAI 是一家为就业者提供最新职场技术的在线交流平台。</p>
+          <p>网站呈现内容之版权均归 小木偶（天津）文化科技有限公司所有 <a href="https://beian.miit.gov.cn/" target="_blank">津ICP备2024023837号-2</a></p>
         </div>
       </div>
     </footer>

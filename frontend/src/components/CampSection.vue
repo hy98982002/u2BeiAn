@@ -6,13 +6,13 @@
       <div class="row mb-3" style="margin-top: -0.3rem">
         <div class="col-12">
           <h2 class="section-title text-start" data-aos="fade-up">
-            <span class="black-text">多维AI课堂</span>
-            <span class="divider"></span>
-            <span class="title-highlight">精品课程</span>
+            <span class="black-text">DOVIAI</span>
+            <!-- <span class="divider"></span> -->
+            <!-- <span class="title-highlight">精品课程</span> -->
             <!-- <span class="title-subtitle">助力你的技术成长之路</span> -->
           </h2>
           <p class="section-description text-start" data-aos="fade-up" data-aos-delay="200">
-            从入门到精通，从理论到实战，系统化的学习路径让你快速掌握前沿技术
+            最新AI技术的交流平台，快速提升你的职场技能。
           </p>
         </div>
       </div>

@@ -72,7 +72,7 @@
     </section>
 
     <section id="course-faq" aria-labelledby="course-faq-heading" class="border-top pt-4">
-      <h5 id="course-faq-heading" class="h5 mb-3">常见问题（FAQ）</h5>
+      <h5 id="course-faq-heading" class="h5 mb-3">常见问题</h5>
       <dl class="faq-list mb-0">
         <div v-for="(faq, index) in faqItems" :key="`faq-${index}`" class="mb-3">
           <dt class="fw-semibold text-dark">{{ faq.question }}</dt>

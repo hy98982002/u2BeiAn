@@ -52,7 +52,7 @@
             立即购买
           </button>
           <button class="btn btn-yellow-black mb-2 px-4" @click="handleOpenVip">
-            开通 VIP 立即学
+            开通会员立即学
           </button>
         </div>
       </div>

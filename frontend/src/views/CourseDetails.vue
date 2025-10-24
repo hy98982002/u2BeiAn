@@ -43,9 +43,12 @@
       </section>
 
       <!-- 页脚 -->
-      <footer class="mt-5 py-4 text-center text-white">
+      <footer class="footer py-5" role="contentinfo">
         <div class="container">
-          <p class="mb-0">&copy; 2025 多维AI课堂. 保留所有权利.</p>
+          <div class="text-center">
+            <p class="mb-2">DoviAI 是一家为就业者提供最新职场技术的在线交流平台。</p>
+            <p>网站呈现内容之版权均归 小木偶（天津）文化科技有限公司所有 <a href="https://beian.miit.gov.cn/" target="_blank">津ICP备2024023837号-2</a></p>
+          </div>
         </div>
       </footer>
     </template>
@@ -154,10 +157,19 @@ onMounted(() => {
   min-height: 100vh;
 }
 
-/* 页脚样式 */
+/* 页脚样式 - 设置黑色背景 */
 footer {
-  background-color: #1e7f98 !important;
+  background-color: #000 !important;
   color: #fff !important;
+}
+
+footer a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 /* 移动端适配 */
