@@ -160,11 +160,11 @@ onMounted(() => {
 /* 页脚样式 - 设置黑色背景 */
 footer {
   background-color: #000 !important;
-  color: #fff !important;
+  color: #b3b3b3 !important; /* 将白色文字改为浅灰色 */
 }
 
 footer a {
-  color: #fff !important;
+  color: #b3b3b3 !important; /* 将白色链接改为浅灰色 */
   text-decoration: none;
 }
 
